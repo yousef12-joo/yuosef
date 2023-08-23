@@ -1,0 +1,1102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgba(39, 49, 49, 0.836); 
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding: 10px 20px;
+}
+header .logo{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 1.5em; 
+    padding-bottom: 5px;
+
+}
+header img{
+    width: 60px;
+}
+header .logo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo1 .na{
+    padding-right: 10px;
+    color: #fff;
+}
+header .nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+header .nav a:hover{
+    color:aqua;
+}
+
+section{
+    padding: 10px 60px;
+    
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(iamge/black-wood-v3.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+}
+.main h2{
+    display: block;
+    justify-content:center;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.main h2 span{
+    font-size: 2em;
+    font-weight: 800;
+    color:rgb(240, 5, 63);
+    animation: to 2s infinite;
+}
+@keyframes to{
+0%{
+    color:rgb(240, 5, 63) ;
+}
+25%{
+    color: #ffffff;
+}
+50%{
+    color: #bc1888;
+}
+75%{
+    color: #e6683c;
+}
+100%{
+    color: rgb(240, 5, 63);
+}
+
+}
+.main p{
+    font-size: 1.7em;
+    color: white;
+    margin-top: 10px;
+}
+.main-btn{
+    color: white;
+    background-color:rgb(240, 5, 63);
+    background-size: 100%;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: 0.5s ease;
+}
+.main-btn:hover{
+    background-color:aqua;
+    transform:scale(1.1);
+}
+.social-icons{
+    color: white;
+    font-size: 2em;
+    padding-top: 15px;
+}
+
+.social-icons a{
+    color:white;
+    padding-left: 30px;
+}
+.social-icons .fe{
+    color:white;
+    animation: bluefe 5s infinite ;
+}
+@keyframes bluefe{
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: rgb(0, 140, 255);
+    }
+    100%{
+        color: white;
+    }
+}
+.social-icons .wa{
+    color:white;
+    animation: bl 5s infinite ;
+}
+@keyframes bl{
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: white;
+    }
+}
+.social-icons .in{
+    color:white;
+    animation: ins 5s infinite ;
+}
+@keyframes ins{
+    0%{
+        color: #fff;
+    }
+    50%{
+        color:rgb(240, 5, 63);
+    }
+    100%{
+        color: white;
+    }
+}
+.pac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    
+}
+.joo{
+    width: 100%;
+    margin-left: 108px;
+}
+.title{
+    display: flex;
+    color:rgb(240, 5, 63);
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.infor{
+    font-size: 1.7em;
+    color: white;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.cards{
+    /* background-color:rgb(39, 49, 49); */
+    background-image: url(iamge/black-wood-v3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: 15px;
+}
+.card{
+    background-color:rgb(39, 49, 49);
+    color:white;
+    width: 21.28em;
+    padding: 20px;
+    margin: 20px;
+    transition: 0.3s ease;
+    border-radius: 30px;
+    box-shadow: -10px 15px 16px rgb(0 0 0 / 72%);
+    transition: 0.5s ease;
+  }
+  .card:hover {
+    filter: drop-shadow(10px 10px 15px rgba(255, 255, 255, 0.548));
+    transform: scale(1.1);
+  }
+ .icon{
+    font-size: 10em;
+    text-align: center;
+}
+.info h2{
+    color: rgb(240, 5, 63);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.product{
+    background:url(iamge/wallpaperflare.com_wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed; 
+}
+.product h2{
+    display: flex;
+    color:rgb(240, 5, 63);
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.card-pro{
+    width: 350px;
+    background-color: #ffffff;
+    display:flex;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 15px;
+}
+.text-title{
+    font-size: 1.2em;
+    font-weight: 900;
+    color:rgb(20, 23, 66);
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.text-title1{
+    font-size: 1.2em;
+    font-weight: 900;
+    color:rgb(20, 23, 66);
+    padding-left: 15px;
+   
+}
+.text-body{
+    font-size: 1em;
+    font-weight: 400;
+    color:rgba(20, 23, 66, 0.637);
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    
+}
+.card-img img{
+    width: 80%;
+    border-radius: 5%;
+    transition: 0.5s ease;
+}
+.card-img img:hover{
+ box-shadow: -3px 15px 15px rgba(0, 0, 0, 0.336);
+transform: scale(1.3);
+}
+.card-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-bottom: 8px;
+}
+.button {
+    background-color:rgb(39, 49, 49);
+    color: #fff;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(247, 95, 95);
+  }
+  
+  .button:active {
+    transform: translateY(0.5em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+   
+  
+   .trained{
+    background-image: url(iamge/black-wood-v3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 200px;
+   }
+   .card-tra{
+    width: 21.28em;
+    background-image: url(iamge/pngtree-company-profile-background-material-picture-image_1007361.jpg);
+    position: relative;
+    overflow: visible;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+    margin: 15px;
+   }
+   @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}  
+   .img-tra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+   }
+   .img-tra img{
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 7px 11px 12px rgba(0, 0, 0, 0.842);
+    transition: 0.3s ease-out;
+   }
+   .img-tra img:hover{
+    transform: scale(1.3);
+
+   }
+   .title-tra{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-bottom: 6px;
+    
+   }
+   .text-tra{
+    color: rgba(0, 0, 0, 0.521);
+    font-size: .9em;
+    padding-bottom: 20px;
+    padding-left: 10%;
+   }
+   .social-tra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #000000;
+    width: 50%;
+    margin-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+   .social-tra a{
+    font-size: 2em;
+    padding-left: 30px;
+    margin-right: 30px;
+   }
+   .social-tra  .f{
+    color: blue;
+    transition: 0.5s ease;
+   }
+   .social-tra .f:hover{
+    transform: scale(1.4);
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15%;
+    padding-right: 30px;
+   }
+   .social-tra  .w{
+    color: #12a50b;
+    transition: 0.5s ease;
+   }
+   .social-tra .w:hover{
+    transform: scale(1.4);
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15%;
+    padding-right: 30px;
+   }
+   .social-tra .i{
+    color: #000000;
+    transition: 0.5s ease;
+   }
+    .social-tra .i:hover {
+        color: #fff;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 15%;
+    padding-right: 30px;
+    transform: scale(1.4);
+  }
+  .contact{
+    background-image: url(iamge/DTS_Wired_Allie_Lehman_2165.jpg) ;
+    background-size: 700px 500px ;
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+  }
+.contact h2{
+    display: block;
+    justify-content:center;
+    color:teal;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.inp {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    width: 260%;
+    margin-bottom: 20px;
+}
+.inp .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 30px;
+}
+.inp .row .input {
+    width: 80%;
+}
+.inp .row .input input {
+width: 80%;
+min-width: 100px;
+height: 45px;
+}
+.inp .row:last-child .input:last-child input {
+height: 95px;
+width: 113%;
+}
+.from{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 110%;
+    margin-bottom: 100px;
+}
+.from:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: teal;
+}
+.from:active {
+    transform: translateY(0.5em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .end{
+    display: flex;
+    flex-direction: column;
+  }
+.foot{
+    justify-content:center;
+    color:teal;
+    font-size: 1.8em;
+    font-weight: 900;
+    padding-right: 300px; 
+    padding-top: 100px;  
+}
+.end .non{
+    color: #ffffffb7;
+}
+.copy{
+    color: teal;
+    padding-top: 50px;
+}
+.te{
+    color: #ffffffb7;
+}
+footer{
+background-color: teal;
+display: flex;
+justify-content: space-between;
+}
+footer .c{
+    padding-left: 20px;
+    padding-bottom: 35px;
+    color: #ffffffe0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.social-icons1{
+    padding-top: 98px;
+    padding-right:120px;
+    padding-bottom: 50px;
+}
+.social-icons1 a{
+    color:white;
+    font-size: 1.8em;
+    padding-left: 30px;
+}
+footer .title-end{
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+footer .n{
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+footer .container p {
+    padding-top: 105px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+footer .container p span {
+    color: #ffffff9d;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+ .container p span:hover{
+    text-decoration:underline;
+}
+@media (max-width:1023px){
+    header{
+        width: 100%;
+        height: 5%;
+        z-index: 999;
+        padding: 10px 8px;
+    }
+    header .logo{
+        font-size: 0.9em; 
+        padding-bottom: 5px;
+    }
+    header .nav {
+        padding-bottom: 10px;
+    }
+    header .nav a{
+        font-size: 0.4em;
+        padding-left: 10px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main h2{
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .main h2 span{
+        font-size: 1.3em;
+        font-weight: 800;
+    }
+    .main p{
+        font-size: 0.8em;
+        margin-top: 10px;
+    }
+    .main-btn{
+        background-size: 100%;
+        font-size: 0.8em;
+        padding: 0.9em 1em;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        margin-top: 33px;
+    }
+    .social-icons{
+        font-size: 1em;
+        padding-top: 15px; 
+        padding-bottom: 300px;
+    }
+    .social-icons a{
+        padding-left: 16px;
+    }
+    .joo{
+        width: 125%;
+        margin-left: -1px;
+        padding-bottom: 300px;
+    }
+    .title{
+        font-size: 1em;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+    .infor{
+        font-size: 0.9em;
+        color: white;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+    .cards{
+        background-image: url(iamge/black-wood-v3.jpg);
+        background-position: center;
+        background-size: 60vh;
+        min-height: 60vh;
+    }
+    .card{
+        width: 21.28em;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 30px;
+        box-shadow: -10px 15px 16px rgb(0 0 0 / 72%);
+        transition: 0.5s ease;
+      }
+      .icon{
+        font-size: 2em;
+    }
+    .info h2{
+        font-size: 0.9em;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .info p{
+        font-size: 0.5em;
+    }
+    .card-img img{
+        width: 40%;
+    }
+    .card-button{
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+    .text-title{
+        font-size: 1em;
+        font-weight: 900;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    .text-title1{
+        font-size: 1em;
+        font-weight: 900;
+        padding-left: 15px;
+       
+    }
+    .text-body{
+        font-size: 1em;
+        font-weight: 400;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .button {
+        padding: 5px 9px;
+        font-size: 10px;
+      }
+    .trained{
+        background-size: 60hv;
+        padding-bottom: 200px;
+       }
+       .img-tra img{
+        width: 40%;
+        border-radius: 50%;
+       }
+       .title-tra{
+        font-weight: 900;
+        font-size: 1em;
+        line-height: 1.5;
+        padding-left: 10%;
+        padding-bottom: 6px;
+        
+       }
+       .text-tra{
+        font-size: .9em;
+        padding-bottom: 20px;
+        padding-left: 10%;
+       }
+       .social-tra{
+        width: 45%;
+        margin-left: 85px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       }
+       .social-tra a{
+        font-size: 2em;
+        padding-left: 30px;
+        margin-right: 30px;
+       }
+       .contact{
+        background-image: url(iamge/DTS_Wired_Allie_Lehman_2165.jpg) ;
+        background-size: 420px 500px;
+        background-repeat: no-repeat;
+        background-position: right ;
+        background-color: #ffffff;
+        justify-content: space-between;
+        display: flex;
+      }
+    .contact h2{
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .inp {
+        width: 235%;
+        margin-bottom: 15px;
+    }
+    .inp .row {
+        width: 50%;
+        padding-right: 30px;
+        font-size: 0.5em;
+    }
+    .inp .row .input {
+        width: 80%;
+        font-size: 0.5em;
+    }
+    .inp .row .input input {
+        font-size: 0.4em;
+        width: 80%;
+        min-width: 48px;
+        height: 30px;
+
+    }
+    .inp .row:last-child .input:last-child input {
+        font-size: 0.4em;
+        height: 43px;
+        width: 113%;
+    }
+    .from{
+        padding: 7px 15px;
+        font-size: 10px;
+        width: 97%;
+        margin-bottom: 45px;
+    }
+    .foot{
+        font-size: 1em;
+        font-weight: 900;
+        padding-right: 0px;
+        padding-top: 37px;
+        padding-left: 15px;
+    }
+    .copy{
+        font-size: 0.6em;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .end .non{
+        font-size: 0.6em;
+        padding-left: 20px;
+    }
+    .te{
+        font-size: 0.5em;
+        padding-left: 20px;
+    }
+    footer{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    }
+    footer .c{
+        padding-left: 20px;
+        padding-bottom: 35px;
+        color: #ffffffe0;
+        font-size: 0.5em;
+        font-weight: 500;
+    }
+    .social-icons1{
+        padding-top: 54px;
+        padding-right: 6px;
+        padding-bottom: 50px;
+    }
+    .social-icons1 a{
+        color:white;
+        font-size: 0.8em;
+        padding-left: 6px;
+    }
+    footer .title-end{
+        padding-top: 40px;
+        padding-left: 20px;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    footer .n{
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    
+    footer .container p {
+        padding-top: 57px;
+        font-size: 5px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    footer .container p span {
+        color: #ffffff9d;
+        margin-left: 5px;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+}
+@media(max-width:300px){
+    header{
+        width: 100%;
+        height: 5%;
+        z-index: 999;
+        padding: 10px 8px;
+    }
+    header .logo{
+        font-size: 0.6em; 
+        padding-bottom: 5px;
+    }
+    header .nav {
+        padding-bottom: 10px;
+    }
+    header .nav a{
+        font-size: 0.4em;
+        padding-left: 3px;
+    }
+    .logo1 .na {
+        padding-right: 2px;
+        font-size: 0.5em;
+    }
+    header img{
+        width: 30px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main h2{
+        font-size: 0.6em;
+        font-weight: 500;
+    }
+    .main h2 span{
+        font-size: 1.3em;
+        font-weight: 800;
+    }
+    .main p{
+        font-size: 0.5em;
+        margin-top: 10px;
+    }
+    .main-btn{
+        background-size: 100%;
+        font-size: 0.5em;
+        padding: 0.9em 0.6em;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        margin-top: 19px;
+    }
+    .social-icons{
+        font-size: 0.8em;
+        padding-top: 15px;
+        padding-bottom: 271px;
+    }
+    .social-icons a{
+        padding-left: 8px;
+    }
+    .joo{
+        width: 275%;
+        margin-right: -28px;
+        padding-bottom: 300px;
+    }
+    .title{
+        font-size: 0.8em;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+    .infor{
+        font-size: 0.7em;
+        color: white;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+    .cards{
+        background-image: url(iamge/black-wood-v3.jpg);
+        background-position: center;
+        background-size: 60vh;
+        min-height: 60vh;
+    }
+    .card{
+        width: 21.28em;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 30px;
+        box-shadow: -10px 15px 16px rgb(0 0 0 / 72%);
+        transition: 0.5s ease;
+      }
+      .icon{
+        font-size: 2em;
+    }
+    .info h2{
+        font-size: 0.7em;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .info p{
+        font-size: 0.1em;
+    }
+    .product h2 {
+       
+        font-size: 0.7em;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+    .card-img img{
+        width: 40%;
+    }
+    .card-button{
+        padding-right: 6px;
+        padding-bottom: 8px;
+    }
+    .text-title{
+        font-size: 0.6em;
+        font-weight: 900;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    .text-title1{
+        font-size: 0.4em;
+        font-weight: 900;
+        padding-left: 15px;
+       
+    }
+    .text-body{
+        font-size: 0.6em;
+        font-weight: 400;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .button {
+        padding: 7px 4px;
+        font-size: 4px;
+      }
+    .trained{
+        background-size: 60hv;
+        padding-bottom: 200px;
+       }
+       .card-tra {
+        width: 13.28em;
+        border-radius: 20px;
+        margin: 15px;
+    }
+       .img-tra img{
+        width: 40%;
+        border-radius: 50%;
+       }
+       .title-tra{
+        font-weight: 900;
+        font-size: 0.8em;
+        line-height: 1.5;
+        padding-left: 10%;
+        padding-bottom: 6px;
+        
+       }
+       .text-tra{
+        font-size: 0.5em;
+        padding-bottom: 20px;
+        padding-left: 10%;
+       }
+       .social-tra{
+        width: 45%;
+        margin-left: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       }
+       .social-tra a{
+        font-size: 1em;
+        padding-left: 18px;
+        margin-right: 23px;
+       }
+       .contact{
+        background-size: 101px 323px;
+      }
+    .contact h2{
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .inp {
+        width: 147%;
+        margin-bottom: 15px;
+    }
+    .inp .row {
+        width: 50%;
+        padding-right: 30px;
+        font-size: 0.5em;
+    }
+    .inp .row .input {
+        width: 80%;
+        font-size: 0.5em;
+    }
+    .inp .row .input input {
+        font-size: 0.2em;
+        width: 10%;
+        min-width: 56px;
+        height: 22px;
+        margin: 1px;
+    }
+    .inp .row:last-child .input:last-child input {
+        font-size: 0.2em;
+        height: 25px;
+        width: 185%;
+    }
+    .from{
+        padding: 7px 15px;
+        font-size: 8px;
+        width: 77%;
+        margin-bottom: 45px;
+    }
+    .foot{
+        font-size: 0.1em;
+        font-weight: 900;
+        padding-right: 0px;
+        padding-top: 37px;
+        padding-left: 0px;
+    }
+    .copy{
+        font-size: 0.1em;
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .end .non{
+        font-size: 0.1em;
+        padding-left: 0px;
+    }
+    .te{
+        font-size: 0.1em;
+        padding-left: 0px;
+    }
+    footer .c{
+        padding-left: 15px;
+        padding-bottom: 35px;
+        color: #ffffffe0;
+        font-size: 0.1em;
+        font-weight: 500;
+    }
+    .social-icons1{
+        padding-top: 23px;
+        padding-right: 6px;
+        padding-bottom: 50px;
+    }
+    .social-icons1 a{
+        color:white;
+        font-size: 0.2em;
+        padding-left: 6px;
+    }
+    footer .title-end{
+        padding-top: 23px;
+        padding-left: 15px;
+        font-size: 0.1em;
+        font-weight: 500;
+    }
+    footer .n{
+        font-size: 0.5em;
+        font-weight: 500;
+    }
+    
+    footer .container p {
+        padding-top: 25px;
+        font-size: 3px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    footer .container p span {
+        color: #ffffff9d;
+        margin-left: 5px;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+}
+
